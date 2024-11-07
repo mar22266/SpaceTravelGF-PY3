@@ -1,10 +1,11 @@
-#pragma once  
+#pragma once
 
 #include <glm/glm.hpp>
 #include <vector>
 #include "uniforms.h"
 
-enum ShaderType {
+enum ShaderType
+{
     ROCKY,
     GAS,
     SUN,
@@ -14,10 +15,15 @@ enum ShaderType {
     STAR
 };
 
-class Model {
-    public:
+class Model
+{
+public:
     glm::mat4 modelMatrix;
     std::vector<glm::vec3> vertices;
-    Uniforms uniforms;
     ShaderType currentShader;
+    float rotationSpeed;
+    float degrees = 0;
+    float degreesRotation;
+    float radius;
+    float translationSpeed;
 };
