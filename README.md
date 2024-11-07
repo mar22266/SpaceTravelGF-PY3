@@ -7,8 +7,9 @@ This repository contains a software renderer that creates and displays a solar s
 ### Video Description
 Take a look at this clip! The spaceship can't fly through the planets, so it stops when it gets too close, but you'll see all the planets orbiting the sun and stars twinkling in the background. It’s a neat little demo of the spaceship cruising around the solar system.
 
-![Demo SpaceTravel](./video.mp4)
+To see the demo in action, click here: [Watch the Demo Video](./Video.mp4)
 
+![Space Travel Demo](./Video.gif)
 
 The aim of this project is to develop a 3D simulation of a solar system featuring a controllable spaceship navigating through an environment with seven distinct celestial bodies. Each celestial body, from rocky planets to gas giants and stars. Shaders:
 
